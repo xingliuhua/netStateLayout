@@ -1,8 +1,7 @@
 netstatelayout extend framelayout.you can custom view to show net state: loading,error,ok.
-![loading](https://github.com/xingliuhua/netStateLayout/blob/master/screenshot-1533289379486.jpg)
-![neterror](https://github.com/xingliuhua/netStateLayout/blob/master/screenshot-1533289408273.jpg)
-![ok](https://github.com/xingliuhua/netStateLayout/blob/master/screenshot-1533289418975.jpg)
 <img src="https://github.com/xingliuhua/netStateLayout/blob/master/screenshot-1533289379486.jpg" height="330" width="190" >
+<img src="https://github.com/xingliuhua/netStateLayout/blob/master/screenshot-1533289408273.jpg" height="330" width="190" >
+<img src="https://github.com/xingliuhua/netStateLayout/blob/master/screenshot-1533289418975.jpg" height="330" width="190" >
 ### How to use
 #### the library as dependency
 
