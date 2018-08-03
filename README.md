@@ -2,9 +2,9 @@ netstatelayout extend framelayout.you can custom view to show net state: loading
 ![loading](https://github.com/xingliuhua/netStateLayout/blob/master/screenshot-1533289379486.jpg)
 ![neterror](https://github.com/xingliuhua/netStateLayout/blob/master/screenshot-1533289408273.jpg)
 ![ok](https://github.com/xingliuhua/netStateLayout/blob/master/screenshot-1533289418975.jpg)
-
-###How to use
-####add the library as dependency
+<img src="https://github.com/xingliuhua/netStateLayout/blob/master/screenshot-1533289379486.jpg" height="330" width="190" >
+### How to use
+#### the library as dependency
 
 Add the library as dependency to your build.gradle file.
 ```gradle
@@ -13,7 +13,7 @@ dependencies {
 	compile 'com.xingliuhua:libnetstatelayout:1.0'
 }
 ```
-####implement interface
+#### implement interface
 implement INetErrorView and INetLoadingView to custom your UI .of course,you can use SimpleNetErrorView and SimpleNetLoadingView.
 ```java
 public class MyNetErrorView implements INetErrorView {
@@ -25,7 +25,7 @@ public class MyNetLoadingView implements INetLoadingView {
     ...
 }
 ```
-####set view
+#### set view
 you can set view by code or xml
 1. set view by code
 ```java
@@ -60,7 +60,7 @@ you can set view by code or xml
         </LinearLayout>
 </com.xingliuhua.libnetstatelayout.view.NetStateLayout>
 ```
-####switch state
+#### switch state
 ```java
 public class MainActivity extends AppCompatActivity {
     private NetStateLayout mNetStateLayout;
