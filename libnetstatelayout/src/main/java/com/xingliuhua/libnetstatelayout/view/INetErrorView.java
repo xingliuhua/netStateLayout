@@ -6,7 +6,7 @@ import android.view.View;
 /**
  * INetErrorView is a interface for network error.
  * You can implement it to customize the UI.
- * SimpleNetErrorView has implemented it <p/>
+ * SimpleNetErrorView has implemented it <p></p>
  * Created by xingliuhua on 2018/7/31.
  */
 
