@@ -1,4 +1,5 @@
-netstatelayout extend framelayout.you can custom view to show net state: loading,error,ok.
+netstatelayout extend framelayout.you can custom view to show net state: loading,error,ok.  
+
 <img src="https://github.com/xingliuhua/netStateLayout/blob/master/screenshot-1533289379486.jpg" height="330" width="190" >
 <img src="https://github.com/xingliuhua/netStateLayout/blob/master/screenshot-1533289408273.jpg" height="330" width="190" >
 <img src="https://github.com/xingliuhua/netStateLayout/blob/master/screenshot-1533289418975.jpg" height="330" width="190" >
