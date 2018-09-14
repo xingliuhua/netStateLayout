@@ -142,6 +142,15 @@ public class NetStateLayout extends FrameLayout {
 
 
     public void setOnRetryClickListener(INetErrorView.OnRetryClickListener onRetryClickListener) {
+        if (mNetErrorView == null) {
+            try {
+                Class<?> netErrorClass = Class.forName(netErrorClassName);
+                mNetErrorView = (INetErrorView) netErrorClass.newInstance();
+                addView(mNetErrorView.getView(getContext()), new FrameLayout.LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.MATCH_PARENT));
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
         if (mNetErrorView != null) {
             mNetErrorView.setRetryClickListener(onRetryClickListener);
         }
