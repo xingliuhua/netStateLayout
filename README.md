@@ -9,7 +9,7 @@ Add the library as dependency to your build.gradle file.
 ```gradle
 dependencies {
 	//other dependencies...
-	compile 'com.xingliuhua:libnetstatelayout:1.0'
+	compile 'com.xingliuhua:libnetstatelayout:1.0.1'
 }
 ```
 #### implement interface
